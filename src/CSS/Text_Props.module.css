@@ -1,0 +1,26 @@
+#bloco {
+    width: 35%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-right: 18%;
+    text-align: center;
+    padding: 15px ;
+}
+
+#bloco h1 {
+    margin-top: 25px;
+}
+
+#bloco p {
+    margin-top: 25px;
+}
+
+#bloco img {
+    width: 50px;
+    margin-top: 20px;
+}

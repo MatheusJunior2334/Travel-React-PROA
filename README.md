@@ -1,2 +1,3 @@
-# Travel-React-PROA
-Segundo exercício de cópia para praticar nossas habilidades em React JS
+# Atividade de React JS - Travel
+
+<p>Atividade de React JS para praticarmos as nossas habilidas nessa ferramenta</p>

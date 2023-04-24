@@ -1,0 +1,36 @@
+#main {
+    width: 95%;
+    height: 550px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+}
+
+#main_part1 {
+    width: 50%;
+    height: 100%;
+    background-image: url(../Images/mala.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#main_part2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 85px;
+    text-align: center;
+    color: rgb(52, 52, 99);
+}
+
+#main_part2 h1 {
+    font-size: 45px;
+}
+
+#main_part2 p {
+    font-size: 25px;
+}

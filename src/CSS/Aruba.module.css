@@ -1,0 +1,9 @@
+#aruba {
+    width: 100%;
+    height: 550px;
+    background-image: url(../Images/Aruba.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
