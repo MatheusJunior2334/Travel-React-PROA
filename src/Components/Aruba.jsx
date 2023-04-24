@@ -1,10 +1,10 @@
 import style from '../CSS/Aruba.module.css';
-import Text_Props from "./Text_Props";
+import TextProps from "./TextProps";
 
 function Aruba() {
     return (
         <div id={style.aruba}>
-            <Text_Props local='Aruba' texto='Praias paradisíacas, mar cristalino, hóteis requintados, cassinos e programação para toda a família são alguns dos atrativos de Aruba.' />
+            <TextProps local='Aruba' texto='Praias paradisíacas, mar cristalino, hóteis requintados, cassinos e programação para toda a família são alguns dos atrativos de Aruba.' />
         </div>
     )
 }

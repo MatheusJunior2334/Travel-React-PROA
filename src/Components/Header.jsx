@@ -1,4 +1,4 @@
-//import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import style from '../CSS/Header.module.css';
 
 import logo from '../Images/viagens.jpg';
@@ -12,11 +12,11 @@ function Header() {
             </div>
             <nav id={style.header_part2}>
                 <ul>
-                    <li>Home</li>
-                    <li>Grand Canyon</li>
-                    <li>Escócia</li>
-                    <li>Muralha da China</li>
-                    <li>Aruba</li>
+                    <li><Link to='/'> Home </Link></li>
+                    <li><Link to='/GrandCanyon'>Grand Canyon</Link></li>
+                    <li><Link to='/Escocia'>Escócia</Link></li>
+                    <li><Link to='/MuralhaChina'>Muralha da China</Link></li>
+                    <li><Link to='/Aruba'>Aruba</Link></li>
                 </ul>
                 <input type='search' />
             </nav>
